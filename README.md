@@ -15,6 +15,7 @@
 功能大概完成了40%，陆续完善中
 
 演示地址 ext.laykefu.com
+完整功能演示地址 mobile.laykefu.com
 
 演示账号  纸飞机    admin
 		 罗玉凤	   admin
