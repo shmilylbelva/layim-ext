@@ -1,0 +1,90 @@
+#headimg{
+	width: 12rem;
+	height: 12rem;
+	border: 2px solid #ffffff;
+	border-radius:100% ;
+	margin: auto;
+	margin-bottom: 1.7rem;
+	background-size:100% 100% !important;
+	background-repeat:no-repeat;
+	background-position: center center;
+}
+
+/*截图上传页面*/
+.clipbg{
+	position: fixed;
+	background: black;
+	top: 0;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	left: 0;
+}
+.loading{
+	position: absolute;
+	top: 40%;
+	width: 38%;
+	left: 31%;
+	height: 1.6rem;
+	line-height: 1.6rem;
+	z-index: 99999;
+	text-align: center;
+	color: #ffffff;
+	border-radius:0.2rem ;
+	background: #9f9f9f;
+}
+.clipbg #clipArea{
+	width: 100%;
+	height: 80%;
+	margin: auto;
+
+}
+.clipbg .footer{
+	width: 90%;
+	position: fixed;
+	left: 5%;
+	bottom: 0px;
+	text-align: center;
+}
+.clipbg dl{
+	background: #ffffff;
+	border-radius: 0.4rem;
+	overflow: hidden;
+	margin-bottom: 1.6rem;
+}
+.clipbg dd{
+	position: relative;
+	height: 3.25rem;
+	line-height: 3.25rem;
+	border-bottom:1px solid #999999 ;
+}
+.clipbg .photoClipBack{
+	height: 3.25rem;
+	line-height:3.25rem;
+	border-radius: 0.4rem;
+	margin-bottom: 1.4rem;
+	background: #ffffff;
+}
+.clipbg dd input{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	z-index: 11;
+	filter:alpha(opacity=0);  
+  -moz-opacity:0;  
+  -khtml-opacity: 0;  
+  opacity: 0; 
+}
+.displaynone {
+    display: none;
+}
+.photo-clip-layer{position: absolute; left: 50%; top: 50%; width: 300px; height: 300px; margin-left: -150px; margin-top: -150px;}
+.photo-clip-move-layer{transform-origin: 0px 0px 0px; transition-timing-function: cubic-bezier(0.1, 0.57, 0.1, 1); transition-duration: 0ms; transform: translate(150px, 150px) scale(1) translateZ(0px); width: 0px; height: 0px;}
+.photo-clip-mask{position: absolute; left: 0px; top: 0px; width: 100%; height: 100%; pointer-events: none;}
+.photo-clip-mask-left{position: absolute; left: 0px; right: 50%; top: 50%; bottom: 50%; width: auto; background-color: rgba(0, 0, 0, 0.5); margin-right: 150px; margin-top: -150px; margin-bottom: -150px;}
+.photo-clip-mask-right{position: absolute; left: 50%; right: 0px; top: 50%; bottom: 50%; background-color: rgba(0, 0, 0, 0.5); margin-left: 150px; margin-top: -150px; margin-bottom: -150px;}
+.photo-clip-mask-top{position: absolute; left: 0px; right: 0px; top: 0px; bottom: 50%; background-color: rgba(0, 0, 0, 0.5); margin-bottom: 150px;}
+.photo-clip-mask-bottom{position: absolute; left: 0px; right: 0px; top: 50%; bottom: 0px; background-color: rgba(0, 0, 0, 0.5); margin-top: 150px;}
+.photo-clip-area{border: 2px dashed rgb(221, 221, 221); position: absolute; left: 50%; top: 50%; width: 300px; height: 300px; transform: translate(-50%, -50%);}

@@ -1,0 +1,32 @@
+div.pinch-zoom {
+    position: relative;
+    margin: 100px -10px 0 35px;
+    width: 80%;    
+}
+
+div.pinch-zoom a {
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    background: #333;
+    padding: 3px;
+    font-size: 11px
+}
+
+div.pinch-zoom div.description {
+    position: absolute;
+    top: 500px;
+    left: 210px
+}
+
+div.pinch-zoom div.description h1 {
+    font-size: 40px;
+    margin: 0;
+    margin-bottom: 10px
+}
+
+div.pinch-zoom div.description p {
+    margin: 0
+}

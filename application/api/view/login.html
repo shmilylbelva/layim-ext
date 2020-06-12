@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/axios/0.17.1/axios.min.js"></script>
+</head>
+<body>
+这是登陆界面
+<div id="showpage">
+    <div class="form-group">
+        <label for="username">用户名</label>
+        <input type="text" class="form-control" id="username" placeholder="请输入用户名">
+    </div>
+    <div class="form-group">
+        <label for="password">密码</label>
+        <input type="password" class="form-control" id="password" placeholder="请输入密码">
+    </div>
+    <button type="submit" id="sub-btn" class="btn btn-default">登录</button>
+    <br/>
+    <p class="bg-warning" style="padding: 10px;">演示用户名和密码都是<code>demo</code>。</p>
+</div>
+<div id="user" style="display: none">
+    <p>欢迎<strong id="uname"></strong>，您已登录，<a href="javascript:;" id="logout">退出>></a>
+    </p>
+</div>
+
+<script>
+
+    document.querySelector('#sub-btn').onclick = function () {
+        let username = document.querySelector('#username').value;
+        let password = document.querySelector('#password').value;
+
+        var params = new URLSearchParams();
+        params.append('user', username);
+        params.append('pass', password);
+        axios.post(
+            'doLogin',
+            params
+        ).then((response) => {
+            if (response.data.result === 'success') {
+                // 本地存储token
+                localStorage.setItem('jwt', response.data.jwt);
+                // 把token加入header里
+                axios.defaults.headers.common['X-token'] = response.data.jwt;
+                axios.get('getInfo').then(function (response) {
+                    //console.log(response.headers.token);
+                    console.log(response.data.data)
+                    if (response.data.code === 0) {
+                        document.querySelector('#showpage').style.display = 'none';
+                        document.querySelector('#user').style.display = 'block';
+                        document.querySelector('#uname').innerHTML = response.data.data.data.username;
+                    } else {
+                        alert('数据异常');
+                    }
+                });
+            } else {
+                console.log(response.data.msg);
+            }
+        }).catch(function (error) {
+                console.log(error);
+            });
+    }
+</script>
+</body>
+</html>

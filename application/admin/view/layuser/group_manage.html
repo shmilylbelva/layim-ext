@@ -1,0 +1,55 @@
+ <html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>双列表</title>
+
+<script type="text/javascript" src="/static/admin/js/jquery.min.js?v=2.1.4"></script>
+<link href="/static/admin/css/dsSelect.css" type="text/css" rel="stylesheet">
+<script type="text/javascript" src="/static/admin/js/dsSelect.js"></script>
+<script src="/static/admin/js/plugins/layer/layer.min.js"></script>
+</head>
+<body>
+
+<div style="width:800px; margin: 0px auto">
+
+	<div class="dsSelect" id="dsSelectTemp">		
+	</div>
+</div>
+<script type="text/javascript">
+	var socket = new WebSocket('ws://{$Think.config.ws}/{$Think.session.code}');
+            setInterval(function(){
+                socket.send('{"type":"ping"}');
+            },30000);	
+    let dsSelectObj = new dsSelect("dsSelectTemp");
+    dsSelectObj.multiSelect =true;
+    dsSelectObj.init();
+    let datas = {$allUser};
+    let datasR = {$group};
+	for (let i = datas.length - 1; i >= 0; i--) {
+		for (let j = datasR.length - 1; j >= 0; j--) {
+			if (datas[i]) {
+				if (datas[i].userid == datasR[j].userid) {
+					datas.splice(i, 1);
+			    }		
+			}
+
+		}	
+	}
+    dsSelectObj.setLeftData(datas,"username","useravatar","userid");
+    dsSelectObj.setRightData(datasR,"username","useravatar","userid");
+
+    $(".sure").click(function(){
+    	var check = dsSelectObj.getSelectRightValus();
+    	$.post("groupManage",{check:check,groupid:"{$groupid}"},function(data){
+	        if( 1 == data.code ){
+	            var del_data = data.data;
+	            socket.send( del_data );	        	
+	            layer.msg(data.msg, {icon: 1});
+	        }else{
+	            layer.alert( data.msg, {'icon' : 2} );
+	        }
+    	});
+    })
+
+</script>
+</body>
+</html>

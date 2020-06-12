@@ -1,0 +1,42 @@
+ .list-ul {   touch-action: none; 
+  overflow: hidden
+ }
+  
+ .list-li {
+  border-bottom: 1px solid #fcfcfc;
+  position: relative;
+  color: #666;
+  -webkit-transition-duration:-webkit-transform .1s;
+ transition-duration:transform .1s;  -webkit-transition-timing-function:ease-out ;transition-timing-function:ease-out ;
+ }
+ .swipe-delete-btn {
+    position: absolute;
+    top: 0px;
+    right: -17%;
+    text-align: center;
+    background-color: #ef6d58;
+    color: #fff;
+    width: 17%;;
+    z-index: 99999999999999;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;    
+ }
+ 
+.list-li .btn div {
+  float: left; display: inline-block; height: 60px;;
+  background: #ffcb20;
+  color: #fff;
+  width: 80px; z-index: 2;
+ }
+.list-li  .btn div:nth-of-type(2) {
+  background: red;
+
+ }
+ .layim-list-history .list-li{border-bottom:1px solid #ddd;}
+
+.layim-list-history .list-li {height:50px;display:block;-webkit-transition:all 0.3s linear;transition:all 0.3s linear;}
+
+.layim-list-history .list-li i{float:right;width:15%;text-align:center;background:#E2421B;color:#fff;}
+
+.swipeleft{transform:translateX(-17%);-webkit-transform:translateX(-17%);}

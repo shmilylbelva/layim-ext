@@ -1,0 +1,130 @@
+.addGroup{
+    float: right;
+    padding: 5px 8px;
+    background: #6aafa7;
+    border-radius: 3px;
+    color: #fff;    
+}
+
+.laykefu-mask{
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #000;
+    opacity: 0.5;
+    filter: Alpha(opacity=50);
+    z-index: 98;
+    transition: all 1s;
+    display: none;    
+}
+.laykefu-bigimg{
+    z-index: 99;
+    width:90%;
+    display: block;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;    
+}
+.sitchdiv{position: absolute;right: 40px;top: 11px;}
+.gagradio{width: 100%;height: 59px;top: 0px;left: 0px;position: absolute;opacity: 0;}
+.gagdiv{background-color:#01AAED;border-radius: 7px;color:#fff;}
+.m2{margin: 2px 5px;}
+.gaging{width: 100%;position: fixed;bottom: 0px;opacity: 0.7;background: #ddd;padding-top: 11px;padding-bottom: 48px;padding-left: 30%;}
+.layui-layim-list li .layim-group-role-owner{display: block;right: 13px;padding: 2px 6px;top: 17px;background: #e06666;position: absolute;
+    height: 15px;
+    line-height: 14px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;}
+.layui-layim-list li .layim-group-role-manager{display: block;right: 13px;padding: 2px 6px;top: 17px;background: #58b184;position: absolute;
+    height: 15px;
+    line-height: 14px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 10px;
+    color: #fff;}
+
+[class|=switch] {
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 30px;
+    border-radius: 16px;
+    line-height: 32px;
+    -webkit-tap-highlight-color: transparent
+}
+
+.switch-on {
+    border: 1px solid #fff;
+    box-shadow: #fff 0 0 0 16px inset;
+    transition: border .4s,box-shadow .2s,background-color 1.2s;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.slider {
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    box-shadow: 0 1px 3px rgba(0,0,0,.4);
+    border-radius: 50%;
+    left: 0;
+    top: 0
+}
+
+.switch-on .slider {
+    left: 25px;
+    margin-top: 0px;
+    transition: background-color .4s,left .2s
+}
+
+.switch-off {
+    border: 1px solid #dfdfdf;
+    transition: border .4s,box-shadow .4s;
+    background-color: #fff;
+    box-shadow: #dfdfdf 0 0 0 0 inset;
+    background-color: #fff;
+    cursor: pointer
+}
+
+.switch-off .slider {
+    left: 0;
+    margin-top: 0px;
+    transition: background-color .4s,left .2s
+}
+
+.switch-on.switch-disabled {
+    opacity: .5;
+    cursor: auto
+}
+
+.switch-off.switch-disabled {
+    background-color: #f0f0f0!important;
+    cursor: auto
+}
+    
+
+.layim-sure-group{position: relative;margin-top:-41px;padding: 1px 8px;height: 30px;line-height: 30px;background: #58b184;float: right;border-radius: 3px;color: #fff;}
+.layim-del-group{position:relative;margin-top: -41px;padding: 1px 8px;height: 30px;line-height: 30px;background: #FF5722;float: right;border-radius: 3px;color: #fff;}
+.add-into-checkbox{border: 3px solid #58b184;height: 20px;width: 20px;right: 20px;position: absolute;top: 20px;opacity: 0;}
+.add-into-opacity{color: #fff;padding: 0 3px;margin-top: 13px;background: #fff;border: 2px solid #58b184;float: right;margin-right: 3px;border-radius: 3px;}
+.add-into-opacity-checked{color: #fff;padding: 0 3px;margin-top: 13px;background: #fff;border: 2px solid #a0bdae;float: right;margin-right: 3px;border-radius: 3px;}
+.layim-friend-search{padding: 9px 10px;border: 0px;border-bottom: 1px solid #58b184; width: 78%;float: right;margin-right: 4%;}
+.layim-serach-icon{font-size: 24px;margin-left: 3%;display: inline-block;vertical-align: middle;position: relative;top: 6px;font-size: 24px;cursor: pointer;}
+.layui-layim-group-search{padding: 11px 0px;background: #e8e8e8;position: fixed;width: 100%;z-index: 2;}
+.layim-tab-content .myfriends{left: 15px;font-size: 24px;color: #36373C;}
+.layim-tab-content .pl50 {padding-left: 50px;}
+.mygroup{padding: 0 15px 0 50px;line-height: 45px;border-bottom: 1px solid #f2f2f2;background: #fff;font-size: 17px;}
+.icon-mygroup{position: absolute;left: 12px;color: #36373C;font-size: 20px;}
+.mygroup-list li:last-child{ margin-bottom: 10px;}
+.title-overflow-hidden{overflow: hidden;text-overflow: ellipsis;white-space: nowrap;top: 0px;margin-left: 44px;margin-right: 76px;}
+.layer-m-input{border: 1px solid #fff;border-bottom: 1px solid #ddd; height: 41px;width: 90%;font-size: 24px;}
+.removefooterStyle{padding : 0;backgroud:0;}
