@@ -1198,7 +1198,7 @@ layui.define(['laytpl', 'upload-mobile', 'layer-mobile', 'zepto'], function(expo
     //关于
     ,about: function(){
       layer.open({
-        content: '<p>版权所有：爱信</p>'
+        content: '<p>版权所有：layim-ext</p>'
         ,className: 'layim-about'
         ,shadeClose: false
         ,btn: '我知道了'
