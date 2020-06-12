@@ -16,43 +16,25 @@
 
 演示地址 ext.laykefu.com
 完整功能演示地址 mobile.laykefu.com
+详细截图 https://fly.layui.com/jie/54508/
 
 演示账号  纸飞机    admin
 		 罗玉凤	   admin
 
+右滑删除 、查找好友、群 、创建群聊、个人信息修改、好友界面、好友设置、群聊天分类、群设置、群员管理、禁言、群列表、群主界面、[删除群员、增加群员、设置、[消息盒子
 
 
-![右滑删除 ](www://cdn.layui.com/upload/2019_7/1219176_1561950470528_97940.jpg)
+![1219176_1561950479363_7345.jpg](https://upload-images.jianshu.io/upload_images/2825702-310fabd43873c7ab.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![查找好友、群 ](www://cdn.layui.com/upload/2019_7/1219176_1561950479363_7345.jpg)
+![1219176_1561950470528_97940.jpg](https://upload-images.jianshu.io/upload_images/2825702-1d8dd60be1d54486.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![创建群聊](www://cdn.layui.com/upload/2019_7/1219176_1561950509505_75842.jpg)
+![1219176_1561950595424_32621.jpg](https://upload-images.jianshu.io/upload_images/2825702-826119d32f854134.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![个人信息修改](www://cdn.layui.com/upload/2019_7/1219176_1561950530844_68714.jpg)
+![1219176_1561950609392_38384.jpg](https://upload-images.jianshu.io/upload_images/2825702-b7a63bb5e713b12b.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![好友界面](www://cdn.layui.com/upload/2019_7/1219176_1561950545130_39467.jpg)
+![1219176_1561950669441_82845.jpg](https://upload-images.jianshu.io/upload_images/2825702-caa62ce5fb6f34b5.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-![好友设置](www://cdn.layui.com/upload/2019_7/1219176_1561950567009_39319.jpg)
-
-![群聊天分类](www://cdn.layui.com/upload/2019_7/1219176_1561950580843_40863.jpg)
-
-![群设置](www://cdn.layui.com/upload/2019_7/1219176_1561950595424_32621.jpg)
-
-![群员管理](www://cdn.layui.com/upload/2019_7/1219176_1561950609392_38384.jpg)
-
-![禁言](www://cdn.layui.com/upload/2019_7/1219176_1561950622455_7522.jpg)
-
-![群列表](www://cdn.layui.com/upload/2019_7/1219176_1561950635119_62265.jpg)
-
-![群主界面](www://cdn.layui.com/upload/2019_7/1219176_1561950655376_55695.jpg)
-
-![删除群员](www://cdn.layui.com/upload/2019_7/1219176_1561950669441_82845.jpg)
-
-![增加群员](www://cdn.layui.com/upload/2019_7/1219176_1561953842912_22052.jpg)
-
-![设置](www://cdn.layui.com/upload/2019_7/1219176_1561953811518_25964.jpg)
-
-![消息盒子](www://cdn.layui.com/upload/2019_7/1219176_1561953825625_89321.jpg)
+![1219176_1561953825625_89321.jpg](https://upload-images.jianshu.io/upload_images/2825702-609892191a9ac3a9.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 配置起来也很方便，像下面这样就行
