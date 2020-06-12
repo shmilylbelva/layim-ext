@@ -21,53 +21,38 @@
 		 罗玉凤	   admin
 
 
-右滑删除 
-img[//cdn.layui.com/upload/2019_7/1219176_1561950470528_97940.jpg] 
 
-查找好友、群
-img[//cdn.layui.com/upload/2019_7/1219176_1561950479363_7345.jpg] 
+![右滑删除 ](www://cdn.layui.com/upload/2019_7/1219176_1561950470528_97940.jpg)
 
-创建群聊
-img[//cdn.layui.com/upload/2019_7/1219176_1561950509505_75842.jpg] 
+![查找好友、群 ](www://cdn.layui.com/upload/2019_7/1219176_1561950479363_7345.jpg)
 
-个人信息修改
-img[//cdn.layui.com/upload/2019_7/1219176_1561950530844_68714.jpg] 
+![创建群聊](www://cdn.layui.com/upload/2019_7/1219176_1561950509505_75842.jpg)
 
-好友界面
-img[//cdn.layui.com/upload/2019_7/1219176_1561950545130_39467.jpg] 
+![个人信息修改](www://cdn.layui.com/upload/2019_7/1219176_1561950530844_68714.jpg)
 
-好友设置
-img[//cdn.layui.com/upload/2019_7/1219176_1561950567009_39319.jpg] 
+![好友界面](www://cdn.layui.com/upload/2019_7/1219176_1561950545130_39467.jpg)
 
-群聊天分类
-img[//cdn.layui.com/upload/2019_7/1219176_1561950580843_40863.jpg] 
+![好友设置](www://cdn.layui.com/upload/2019_7/1219176_1561950567009_39319.jpg)
 
-群设置
-img[//cdn.layui.com/upload/2019_7/1219176_1561950595424_32621.jpg] 
+![群聊天分类](www://cdn.layui.com/upload/2019_7/1219176_1561950580843_40863.jpg)
 
-群员管理
-img[//cdn.layui.com/upload/2019_7/1219176_1561950609392_38384.jpg] 
+![群设置](www://cdn.layui.com/upload/2019_7/1219176_1561950595424_32621.jpg)
 
-禁言
-img[//cdn.layui.com/upload/2019_7/1219176_1561950622455_7522.jpg] 
+![群员管理](www://cdn.layui.com/upload/2019_7/1219176_1561950609392_38384.jpg)
 
-群列表
-img[//cdn.layui.com/upload/2019_7/1219176_1561950635119_62265.jpg] 
+![禁言](www://cdn.layui.com/upload/2019_7/1219176_1561950622455_7522.jpg)
 
-群主界面
-img[//cdn.layui.com/upload/2019_7/1219176_1561950655376_55695.jpg] 
+![群列表](www://cdn.layui.com/upload/2019_7/1219176_1561950635119_62265.jpg)
 
-删除群员
-img[//cdn.layui.com/upload/2019_7/1219176_1561950669441_82845.jpg] 
+![群主界面](www://cdn.layui.com/upload/2019_7/1219176_1561950655376_55695.jpg)
 
-增加群员
-img[//cdn.layui.com/upload/2019_7/1219176_1561953842912_22052.jpg] 
+![删除群员](www://cdn.layui.com/upload/2019_7/1219176_1561950669441_82845.jpg)
 
-设置
-img[//cdn.layui.com/upload/2019_7/1219176_1561953811518_25964.jpg] 
+![增加群员](www://cdn.layui.com/upload/2019_7/1219176_1561953842912_22052.jpg)
 
-消息盒子
-img[//cdn.layui.com/upload/2019_7/1219176_1561953825625_89321.jpg] 
+![设置](www://cdn.layui.com/upload/2019_7/1219176_1561953811518_25964.jpg)
+
+![消息盒子](www://cdn.layui.com/upload/2019_7/1219176_1561953825625_89321.jpg)
 
 
 配置起来也很方便，像下面这样就行
